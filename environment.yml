@@ -1,0 +1,24 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter_client
+  - jupyter_contrib_core
+  - jupyter_contrib_nbextensions
+  - jupyter_highlight_selected_word
+  - jupyter_nbextensions_configurator
+  - python=3.6.8
+  - pip:
+    - imutils
+    - kapre
+    - keras-applications
+    - keras-preprocessing
+    - librosa
+    - python-speech-features
+    - soundfile
+    - tensorboardx==1.6
+    - tensorflow==1.13.1
+    - tensorflow-estimator==1.13.0
+    - tensorflow-gpu==1.12.2
+    - tqdm
+    - wget
