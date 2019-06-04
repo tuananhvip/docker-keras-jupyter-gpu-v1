@@ -2,6 +2,7 @@ FROM tuananhktmt/docker-keras-jupyter-gpu
 
 MAINTAINER Nobody
 
-ADD https://github.com/tuananhvip/docker-keras-jupyter-gpu-v1/raw/master/environment.yml /environment.yml
+ADD  
 
-RUN conda env update -f /environment.yml
+RUN conda create -n P python tensorflow-gpu=1.12 keras-gpu=2.2.4
+
